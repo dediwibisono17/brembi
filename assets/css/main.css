@@ -1,0 +1,191 @@
+/* global */
+*{font-family: 'Ubuntu', sans-serif;}
+a.upgrade{color: white !important;}
+.relative{position: relative}
+.block{display:block;}
+.inline-block{display: inline-block;}
+.clear{clear: both}
+.btn{border-radius: 10px;}
+.blue-custom{background-color: #0297cb}
+.slider .slides{background: white;color: black}
+h3{font-size: 20px;font-weight: bold;}
+.bold{font-weight: bold}
+.none{display: none;}
+nav.menu-top{position: fixed;top: 0;z-index: 9999;min-height: 60px;}
+nav.menu-top .brand-logo{height: 45px;margin-top: 6px;}
+nav.menu-top .brand-logo img{height: 100%;}
+nav.menu-top-small{position: fixed;top: 0;z-index: 9999;height: 50px;}
+nav.menu-top-small .brand-logo{font-size: 13px;height: 30px;margin-top: 1px;}
+nav.menu-top-small .brand-logo img{height: 100%}
+nav.menu-top-small .merchant{font-size: 13px;position: relative;top: -8px;transition: .7s all;-moz-transition: .7s all;-webkit-transition: .7s all;-o-transition: .7s all;}
+.nav-wrapper{padding: 0px 30px;}
+nav,a,img,li {transition: .7s all;-moz-transition: .7s all;-webkit-transition: .7s all;-o-transition: .7s all;}
+nav.menu-top-small .button-collapse i{height: 52px;line-height: 48px;}
+#mobile-demo .img-logo{border-bottom: 2px dotted #ececec;}
+#mobile-demo .img-logo img{width: 125px;margin: 10px;}
+#mobile-demo li.last{border-bottom: 2px dotted #ececec;}
+#mobile-demo li span{color: black;margin: 0 10px; font-weight: bold;}
+
+/* .navbar-fixed{height: 56px;} */
+
+.header-top{padding-top: 55px;}
+.header-top img{width: 300px;padding: 20px 0;/* height: 455px */}
+.header-top .wrapper{}
+.header-top .bg-top{background-color: #0297cb;}
+.header-top .bg-top .btn{border:1px solid white;}
+.header-top .promo-text{margin-top: 60px;padding: 0 40px;}
+.header-top h2{font-size: 35px;}
+.header-top h3{font-weight: normal;line-height: 30px;}
+.header-top .green{background-color: #16c464 !important; padding: 10px;margin-bottom: 20px;font-size: 20px;}
+.header-top .pesan{margin-right: 15px;}
+.header-top .hp-mobile{display: none;}
+
+.why{margin: 20px 0;}
+.why .title{margin-bottom: 40px; font-size: 30px;font-family: 'Merriweather Sans', sans-serif;}
+.why h5{font-size: 17px;font-weight: bold;font-family: 'Merriweather Sans', sans-serif;}
+.why p{padding: 10px;line-height: 25px;}
+.why .img-why{width: 150px !important;margin: 0 auto;}
+
+.testimonial{margin: 70px 0;}
+.testimonial .quote-dark{width: 50px !important;height: auto;margin: 0 auto;display: block;position: relative;top: 35px;z-index: 9999;}
+.testimonial .left-align{width: 125px;margin: 0 auto;float:left;}
+.testimonial .right-align{float: right;width: 80%}
+.testimonial .title{font-size: 30px;text-align: center;font-weight: bold;}
+.testimonial .slider .slides{height: 256px !important}
+.testimonial .slider {height: 256px !important}
+.testimonial .slider .indicators{z-index: 9999;}
+.testimonial h3{font-size: 18px;line-height: 22px;font-weight: normal;}
+.testimonial h5{font-size: 20px;}
+.testimonial p{font-size: 16px;line-height: 22px;font-weight: normal;z-index: 9999}
+.testimonial .slider img{width: 64px; height: 56px;}
+/* .testimonial .left-align:before{content: ''; background-image: url('../img/quote-dark.png')} */
+.testimonial .grey-text.text-darken-2.top:before{content: '';background: url('../img/quote-after-yes.png') no-repeat;width: 43px;height: 36px;position: absolute;z-index: -9999}
+.testimonial .grey-text.text-darken-2.top:after{content: '';background: url('../img/quote-before.png') no-repeat;width: 43px;height: 36px;position: absolute;z-index: -999}
+.item{padding: 0 35px;}
+.owl-next{position: absolute;right: 0px;top: 35%;text-indent: -20000px;background: url('../img/right.png') no-repeat;height: 38px; width: 24px;background-position: right;margin: 0px 9px 0px 0px;}
+.owl-prev{position: absolute;left: 0px;top: 35%;text-indent: -20000px;background: url('../img/left1.png') no-repeat;height: 38px; width: 24px;background-position: left;margin: 0px 9px 0px 0px;}
+
+.pricing{margin: 20px 0;padding: 20px 0;background:url(../img//bg-header-bl.png) left bottom no-repeat,url(../img/bg-header-br.png) right bottom no-repeat,#00A4DE;box-shadow:inset 0 -15px 15px -15px rgba(0,0,0,.3)}
+.pricing .wrapper{margin: 10px 0;position: relative;}
+.pricing .right{color: white; position: absolute;bottom: 0;right: 0 !important;top: 0}
+.pricing .speech-bubble{position: relative;}
+.pricing .speech-bubble:after{content: '';position: absolute;bottom: 0;left: 50%;width: 0;height: 0;border: 12px solid transparent;border-top-color: #0297cb;	border-bottom: 0;margin-left: -12px;margin-bottom: -12px;}
+.pricing .speech-bubble h3{padding: 10px}
+.pricing ul{margin-left: 20px;}
+.pricing li:before {position: absolute;margin-left: -1.3em;font-weight: bold;}
+.pricing li.tick:before{content: "\2713";}
+
+.counter {margin: 20px 0;padding: 50px 0 10px}
+.counter .title{color: white}
+.counter .project{color: #012340;margin-bottom: 15px;}
+.counter #shiva{position: relative;text-align: center;}
+.counter .count{line-height: 100px;color:white;font-size:50px;text-align: center;}
+.counter .count:after{content: '+'}
+.counter .blue-custom.btn{border:1px solid white;}
+.counter .upgrade-akun{position: relative;top: -20px}
+.counter .upgrade-akun div{margin-bottom: 10px;}
+
+.article{margin: 20px 0}
+.article .title{margin-bottom: 40px; font-size: 30px;text-align: center;}
+.article .card .card-title{font-size: 20px;}
+
+.pembayaran{margin: 20px 0}
+.pembayaran .title{margin-bottom: 40px; font-size: 30px;text-align: center;}
+.pembayaran .logo-bank{width: 100px;}
+.pembayaran .wrapper{display: flex;justify-content: center;}
+.pembayaran .wrapper .logo-bank{text-align: center;margin: 0 10px;}
+.pembayaran .small-pembayaran{display: none;}
+
+.footer.bg-footer{}
+.footer .img-right{display: inline-block;width: 45px;height:auto;margin-right: 10px;}
+
+/* landing page */
+.article-page{margin-top: 80px;}
+.article-page .title{padding:20px 0 40px 0; text-align: center;}
+.article-page p{text-indent: 50px;}
+
+.step{margin: 20px 0}
+.step .title{margin-bottom: 40px; font-size: 30px;text-align: center}
+
+.aturan{margin: 20px 0;padding: 20px 0}
+.aturan .title{margin-bottom: 40px; font-size: 30px;text-align: center}
+.aturan .line{background-color: green;padding: 10px 0;color: white;border-radius: 5px;width: 125px;margin:10px auto;}
+.aturan .line a{color: white;}
+
+.faq{}
+.faq .title{text-align: center;}
+.faq .collapsible-header{font-weight: bold;}
+.faq .collapsible-body{padding: 10px 60px;}
+.faq .collapsible li.active i {-ms-transform: rotate(180deg); /* IE 9 */-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */  transform: rotate(180deg);}
+
+.about{margin-top: 100px;}
+.about .title{text-align: center;}
+
+.panduan{margin-top: 80px;}
+.panduan .title{padding:20px 0 40px 0;text-align: center;}
+.panduan p{text-indent: 50px;}
+.panduan .img-rich{margin: 20px 0}
+
+.admin{margin-top: 80px;}
+.admin .title{padding:20px 0 40px 0;text-align: center;}
+
+.blog{margin-top: 80px;}
+.blog .title{padding:20px 0 40px 0;text-align: center;}
+.blog .sub-title{border-bottom:1px solid #ececec;padding-bottom: 20px;}
+
+.approved{margin-top: 80px;}
+.approved .title{padding:20px 0 40px 0;text-align: center;}
+.approved p{text-indent: 50px;}
+.approved .bottom{margin-bottom: 30px;}
+
+@media screen and (max-width: 668px) and (min-width: 320px){
+nav .button-collapse{float: right;}
+nav.menu-top .brand-logo{height: 30px;margin-top: 7px;}
+nav .brand-logo{float: left;transform: none;padding: 0 20px;left: 0;margin-top: 5px !important;}
+.title{margin:0; font-size: 25px;}
+.header-top h2{font-size: 27px}
+.header-top img{width: 100%;}
+.header-top h3, .header-top .green{font-size: 18px;line-height: 22px}
+.header-top .bg-top .btn{border:1px solid white;width: 100%}
+.header-top .left-align, .header-top .pesan{margin-bottom: 15px; }
+.header-top .promo-text{margin-top: 0;padding: 0}
+.header-top .hp-pc{width: 100%;padding: 0;/* height: 455px */ display: none;}
+.header-top .hp-mobile{display: block;}
+.testimonial .left-align, .testimonial .indicators{display: none}
+.testimonial .right-align{text-align: center;width: auto}
+.testimonial .owl-controls .owl-next{right: 0px;top: 1%;width: 29%;margin: 0px 0px 0px 0px;height: 145px;}
+.testimonial h5{line-height: 28px;font-size: 21px;}
+.why .slider .slides{height: 350px !important;}
+.why .slider .indicators{bottom: auto;}
+.why h5{font-size: 1.10rem;font-weight: bold;}
+.why h3{font-size: 1.37rem;}
+.why .item{margin:0; transform:scale(.9)}
+.why .owl-item.active{opacity: 1;}
+.why .owl-item{opacity: .5}
+.why .item{padding: 0}
+.why .owl-carousel .owl-nav .owl-prev,.why .owl-carousel .owl-nav .owl-next{display: none;}
+.counter{padding: 20px 0}
+.counter .customer-brembi{display: none;}
+.pembayaran .small-pembayaran{display: block;}
+.pembayaran .big-pembayaran{display: none;}
+.footer .sosmed img{max-width: 45px;}
+.article-title h2{font-size: 25px;}
+.article-title h3{font-size: 23px;}
+.step .top img{width: auto;margin: 10px auto}
+.step .middle img{width: auto;margin: 10px auto}
+.nav-wrapper{padding: 0px;}
+.first{display: none;}
+.none{display: block;text-align: center;}
+.none .title{font-size: 25px;margin-bottom: 0px;}
+.slider .slides li img.img-why{height: auto;width: 50%;margin: 0 auto;display: block;}
+.article-page .title{padding:0}
+}
+
+#scroll-top {position: fixed;right: 10px;bottom: 10px;margin: 0;text-decoration: none;}
+#scroll-top button {width: 50px;height: 50px;outline: none;cursor: pointer;border-radius: 100%;    border: solid 5px #FFEBEE;background-color: #F44336;color: #fff;box-shadow: 0 0 1px #333;    display: block;font-family: tahoma;font-size: 11px;-webkit-transition: 1s;-moz-transition: 1s;
+    transition: 1s;}
+#scroll-top button:hover {background-color: #B71C1C;border-color: #F44336;}
+
+
+/* Font familiy */
+@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v34/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2')}.material-icons{font-family:'Material Icons';font-weight:400;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased}@font-face{font-family:Ubuntu;font-style:normal;font-weight:400;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Ubuntu;font-style:normal;font-weight:400;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Ubuntu;font-style:normal;font-weight:400;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKcw72j00.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Ubuntu;font-style:normal;font-weight:400;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKfA72j00.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Ubuntu;font-style:normal;font-weight:400;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Ubuntu;font-style:normal;font-weight:400;src:local('Ubuntu Regular'),local('Ubuntu-Regular'),url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local('Merriweather Sans'),local('MerriweatherSans-Regular'),url(https://fonts.gstatic.com/s/merriweathersans/v9/AKu1CjQ4qnV8MUltkAX3sD48MEBspdEKklcQvcIk8pU.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Merriweather Sans';font-style:normal;font-weight:400;src:local('Merriweather Sans'),local('MerriweatherSans-Regular'),url(https://fonts.gstatic.com/s/merriweathersans/v9/AKu1CjQ4qnV8MUltkAX3sMZ4HySTEWshgORbPp2tk8k.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2212,U+2215}
