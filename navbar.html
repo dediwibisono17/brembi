@@ -1,0 +1,40 @@
+<!-- navbar menu -->
+<nav class="blue darken-4 menu-top">
+    <div class="nav-wrapper navbar-fixed">
+        <a href="http://brembi.com" class="brand-logo" id="logo"><img src="assets/img/logo-top1.png" alt=""></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a class="merchant" href="http://line.me/ti/p/@brembistore">Pesan</a>
+            </li>
+            <li><a class="merchant" href="premiumidlineat.html#faq">FAQ</a>
+            </li>
+            <li><a class="merchant" href="blog.html">Blog</a>
+            </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li class="img-logo"><img src="assets/img/footer-kiri.png" alt=""></li>
+            <li><a href="http://line.me/ti/p/@brembistore">Pesan</a>
+            </li>
+            <li><a href="premiumidlineat.html#faq">FAQ</a>
+            </li>
+            <li class="last"><a href="blog.html">Blog</a>
+            </li>
+        	<li><span>&copy; 2018 Copyright Brembi Store</span></li>
+        </ul>
+    </div>
+</nav>
+<!-- navbar menu end -->
+
+<script>
+    $('.button-collapse').sideNav({
+          menuWidth: 250,
+          edge: 'right',
+          closeOnClick: true,
+          draggable: true
+        }
+    );
+
+    $(".img-logo").click(function(){
+        window.location.href= '../'
+    })
+</script>
